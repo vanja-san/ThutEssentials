@@ -1,0 +1,250 @@
+{
+    "_comment": "ThutEssentials - Свойства языка",
+    "_comment": "@author vanja-san",
+    
+    
+    "_comment": "Экономика",
+    
+    "thutessentials.econ.not_allowed": "§cВы не можете сделать этот магазин!",
+    "thutessentials.econ.not_allowed_link": "§cВы не можете связать этот инвентарь с магазином!",
+    "thutessentials.econ.not_allowed_remove": "§cВы не можете удалить магазин!",
+    "thutessentials.econ.errored": "§cОшибка создания магазина!",
+    "thutessentials.econ.no_storage": "§cНет хранилища для магазина!",
+    "thutessentials.econ.no_items_you": "§cУ вас недостаточно товаров.",
+    "thutessentials.econ.no_items_shop": "§cВ магазине недостаточно товаров.",
+    "thutessentials.econ.no_funds_you": "§cУ вас недостаточно средств.",
+    "thutessentials.econ.no_funds_shop": "§cВ магазине недостаточно средств.",
+    "thutessentials.econ.no_recycle": "§cВам нужно держать предмет, который вы хотите переработать.",
+    
+    "thutessentials.econ.remove": "§aВы удалили магазин.",
+    "thutessentials.econ.made": "§aМагазин успешно создан.",
+    
+    "thutessentials.econ.balance.remaining": "§aОстаток: §6%s",
+    "thutessentials.econ.balance.check": "§bВаш баланс: §6%s",
+    
+    "thutessentials.econ.pay.positive": "§cВы должны заплатить больше, чем 0",
+    "thutessentials.econ.pay.send": "§bВы отправили §6%1$s§b в %2$s",
+    "thutessentials.econ.pay.got": "§bВы получили §6%1$s§b от %2$s",
+    "thutessentials.econ.pay.notenough": "§cУ вас недостаточно средств.",
+    
+    "_comment": "Телепортация",
+    
+    "thutessentials.tp.tosoon": "§cСлишком рано между попытками телепортации!",
+    "thutessentials.tp.standstill": "§cЧтобы телепортироваться, не двигайтесь!",
+    "thutessentials.tp.dismount": "§cСлезьте чтобы телепортироваться!",
+    "thutessentials.tp.tele_init": "§bНе двигайтесь, пока происходит телепортация.",
+    
+    "thutessentials.spawn.succeed": "§aВы вернулись к спавну.",
+    
+    "_comment": "Возвращение",
+    
+    "thutessentials.back.noroom": "§cДля возвращения нет места!",
+    "thutessentials.back.noback": "§cВам некуда возвращаться.",
+    "thutessentials.back.succeed": "§aВы вернулись на своё предыдущее место.",
+    
+    "_comment": "Кровать",
+    
+    "thutessentials.bed.nobed": "§cУ вас нет действующего расположения кровати.",
+    "thutessentials.bed.succeed": "§aВы вернулись к своей кровати.",
+    
+    "_comment": "Телепортация в случаное место",
+    
+    "thutessentials.rtp.fail": "§cНе удалось найти допустимый пункт назначения.",
+    "thutessentials.rtp.succeed": "§aВы телепортируетесь в случайное место.",
+    
+    "_comment": "Варп",
+    
+    "thutessentials.warps.header": "================\n      Варпы     \n================",
+    "thutessentials.warps.entry": "%s",
+    "thutessentials.warps.footer": "================",
+    "thutessentials.warps.exists": "§cЗапрашиваемый варп уже существует! Его можно удалить командой: §6/del_warp %s§c.",
+    "thutessentials.warps.noexists_create": "§cЗапрашиваемого варпа не существует! Его можно создать командой: §6/set_warp %s§c.",
+    "thutessentials.warps.noexists_use": "§cЗапрашиваемого варпа не существует.",
+    "thutessentials.warps.noperms": "§cВам не разрешено использовать этот варп!",
+    "thutessentials.warps.added": "§aВарп §6%s §aдобавлен.",
+    "thutessentials.warps.removed": "§aВарп §6%s §aудалён.",
+    "thutessentials.warps.warping": "§aПеремещение к §6%s.",
+    "thutessentials.warps.warped": "§aПереместились к §6%s.",
+    
+    "_comment": "Дом",
+    
+    "thutessentials.homes.header": "================\n      Дома     \n================",
+    "thutessentials.homes.entry": "%s",
+    "thutessentials.homes.footer": "================",
+    "thutessentials.homes.exists": "§cЗапрашиваемый дом уже существует! Его можно удалить командой: §6/del_home %s§c.",
+    "thutessentials.homes.toomany": "§cВы уже имеете максимальное количество домов!",
+    "thutessentials.homes.noperms": "§cВозможно, у вас не так уж много домов!",
+    "thutessentials.homes.noexists": "§cЗапрашиваемого дома не существует! Его можно создать командой: §6/set_home %s§c.",
+    "thutessentials.homes.added": "§aДом §6%s добавлен.",
+    "thutessentials.homes.removed": "§aДом §6%s удалён.",
+    "thutessentials.homes.warping": "§aПеремещение к §6%s.",
+    "thutessentials.homes.warped": "§aПерестились к §6%s.",
+    
+    "_comment": "Наборы",
+    
+    "thutessentials.kits.header": "================\n      Наборы      \n================",
+    "thutessentials.kits.entry": "%s",
+    "thutessentials.kits.footer": "================",
+    "thutessentials.kits.reloaded": "§aНаборы из конфигураций перезагружены.",
+    "thutessentials.kits.no_kit": "§cЗапрашиваемого набора не существует.",
+    "thutessentials.kits.noperms": "§cВам не разрешено получить этот набор.",
+    "thutessentials.kits.too_soon": "§cЭтот набор всё еще находится на перезарядке!",
+    
+    "_comment": "Связанное с TPA",
+    
+    "thutessentials.tpa.accept": "Принять",
+    "thutessentials.tpa.deny": "Отклонить",
+    "thutessentials.tpa.requested": " отправил запрос на телепортацию к вам",
+    "thutessentials.tpa.requestsent": " был отправлен запрос на телепортацию",
+    "thutessentials.tpa.accepted_user": "§aВаш запрос на телепортацию был принят!",
+    "thutessentials.tpa.accepted_target": "§aВы приняли запрос на телепортацию!",
+    "thutessentials.tpa.denied_user": "§cВаш запрос на телепортацию был отклонён!",
+    "thutessentials.tpa.denied_target": "§cВы отклонили запрос на телепортацию!",
+    
+    "_comment": "Команда и притензии",
+    
+    "msg.team.setpublic.block.true": "§aВы установили этот блок для публичного использования",
+    "msg.team.setpublic.block.false": "§aВы установили этот блок для частного использования",
+    "msg.team.setbreak.block.true": "§aВы установили этот блок так, чтобы его можно было разбить кем угодно",
+    "msg.team.setbreak.block.false": "§aВы установили этот блок так, чтобы его могла разбить только команда",
+    "msg.team.setplace.block.true": "§aВы устанавливаете этот блок на размещение кем угодно",
+    "msg.team.setplace.block.false": "§aВы устанавливаете этот блок на размещение только командой",
+    "msg.team.setmob.public.true": "§aВы устанавливаете этого моба для публичного использования",
+    "msg.team.setmob.public.false": "§aВы устанавливаете этого моба для личного пользования",
+    "msg.team.setmob.protect.true": "§aВы устанавливаете для этого моба защиту от притензий",
+    "msg.team.setmob.protect.false": "§aВы убрали для этого моба защиту от притензий",
+    
+    "msg.team.renamed": "§aВы переименовали свою команду из §6%s§r в §6%s",
+    
+    "thutessentials.deed.for": "§aЭто дело для подчанка(ов) §6%s§a, расположено в [§6%s,%s§a]",
+    "thutessentials.deed.noperms": "§cВам не разрешено выкупать дела",
+    "thutessentials.deed.claimed": "§aВы заявили права на подчанки §6%s§a, для команды §6%s§a с помощью документа.",
+    
+    "msg.team.deny": "§cВам не разрешено делать это на земле, принадлежащей §6%s",
+    "msg.team.enterLand": "§aВы вошли на землю, принадлежащую §6%s",
+    "msg.team.exitLand": "§aВы покинули землю, принадлежащую §6%s",
+    
+    "thutessentials.team.landdisplay.set": "§aЧастицы землевладения включены",
+    "thutessentials.team.landdisplay.unset": "§aЧастицы землевладения вылючены",
+    
+    "msg.team.nowildperms.useitem": "§cВы не можете этого сделать.",
+    "msg.team.nowildperms.useblock": "§cВы не можете этого сделать.",
+    "msg.team.nowildperms.usemob": "§cВы не можете этого сделать.",
+    "msg.team.nowildperms.placeblock": "§cВы не можете этого сделать.",
+    "msg.team.nowildperms.breakblock": "§cВы не можете этого сделать.",
+    "msg.team.nowildperms.noenter": "§cВы не можете пройти!",
+    
+    "msg.team.owned.noenter": "§cВы не можете войти на эту землю!",
+    "msg.team.other.noenter": "§cВы не можете войти на эту землю!",
+    
+    "thutessentials.team.created": "§aВы создали команду §6%s §aи присоединились к ней!",
+    "thutessentials.team.my_team": "§aВы в команде §6%s",
+    "thutessentials.error.teamexists": "§cЭта команда уже существует!",
+    "thutessentials.team.nohomeset": "§cВаша команда не установила местоположение дома",
+    "thutessentials.team.notfound": "§cКоманды §6%s нет!",
+    "thutessentials.team.members": "§aЧлены команды §6%s§c:",
+    "thutessentials.team.teams": "§aСписок команд:",
+    
+    "thutessentials.team.invite.none": "§cУ вас нет приглашений в команду.",
+    "thutessentials.team.invite.noself": "§cВы не можете пригласить себя в свою команду!",
+    "thutessentials.team.invite.alreadyin": "%s§c уже в вашей команде!",
+    "thutessentials.team.invite.noteamperms": "§cУ вас нет командного ранга для этого!",
+    "thutessentials.team.invite.alreadyinvited": "%s§c уже приглашён в вашу команду!",
+    "thutessentials.team.invite.failed": "§cНе удалось отправить приглашение!",
+    "thutessentials.team.invite.invited_sent": "§aПриглашение было отправлено §6%s",
+    "thutessentials.team.invite.invited_recieve": "§a%2$s§a пригласил вас в §6%1$s",
+    "thutessentials.team.invites": "================\n  Приглашения в команду  \n================",
+    "thutessentials.team.invite.link": "%s",
+    "thutessentials.team.joined": "Вы присоединились к команде §6%s",
+    
+    "thutessentials.team.notadmin": "§cДля этого вы должны быть администратором команды!",
+    "thutessentials.team.reloaded": "§aКоманды с диска перезагружены",
+    
+    "thutessentials.team.admins.header": "§aАдмины §6%s§a:",
+    "thutessentials.team.admins.entry": "   §6%s",
+    
+    "thutessentials.team.admins.mustbeteam": "§cВы должны быть в одной команде, чтобы сделать это!",
+    "thutessentials.team.admins.added": "§a§6%s§a добавлен в качестве администратора §6%s",
+    "thutessentials.team.admins.removed": "§a§6%s§a удалён из администраторов §6%s",
+    
+    "thutessentials.team.notinateam": "§cВы не в той команде, где можете это сделать.",
+    "thutessentials.team.delete.done": "§cВаша текущая команда удалена!",
+    
+    "thutessentials.team.prefix.set": "§aУстановите префикс команды на §r%s",
+    "thutessentials.team.enter.set": "§aУстановите сообщение входа в команду на §r%s",
+    "thutessentials.team.exit.set": "§aУстановите для сообщения о выходе команды на §r%s",
+    "thutessentials.team.deny.set": "§aУстановите сообщение об отказе команды на §r%s",
+    "thutessentials.team.home.set": "§aУстановите команду Дом на §6%s",
+    
+    "thutessentials.team.frames.set": "§aSet Item Frame Protection to §6%s",
+    "thutessentials.team.reserve.set": "§aSet Empty Team Reservation to §6%s",
+    "thutessentials.team.ff.set": "§aSet Friendly Fire to §6%s",
+    "thutessentials.team.noplayerdamage.set": "§aSet No Player Damage to §6%s",
+    "thutessentials.team.nomobspawn.set": "§aSet No Mob Spawning to §6%s",
+    "thutessentials.team.nobooms.set": "§aSet No Explosions to §6%s",
+    "thutessentials.team.anybreak.set": "§aSet perm to allow anyone to break blocks to §6%s",
+    "thutessentials.team.fakeplayers.set": "§aSet perm to ignore fake players to §6%s",
+    "thutessentials.team.anyplace.set": "§aSet perm to allow anyone to place blocks to §6%s",
+    "thutessentials.team.public.set": "§aSet perm to allow anyone to access blocks to §6%s",
+    
+    "thutessentials.team.rank.notfound": "§cRank §6%s§c does not exist.",
+    "thutessentials.team.rank.perm.had": "§cRank §6%s§c already has that perm!.",
+    "thutessentials.team.rank.perm.nohad": "§cRank §6%s§c did not have that perm!.",
+    "thutessentials.team.rank.perm.set": "§aRank §6%s§a has been given §6%s§a.",
+    "thutessentials.team.rank.perm.unset": "§aRank §6%s§a no longer has §6%s§a.",
+    "thutessentials.team.rank.rank.set": "§aAdded §6%s§a to rank §6%s§a.",
+    "thutessentials.team.rank.rank.rem": "§aRemoved §6%s§a from rank §6%s§a.",
+    "thutessentials.team.rank.rank.added": "§aAdded rank §6%s",
+    "thutessentials.team.rank.rank.deleted": "§aRemoved rank §6%s",
+    "thutessentials.team.rank.rank.memheader": "§aMembers with Rank §6%s",
+    "thutessentials.team.rank.header": "§aList of Ranks:",
+    "thutessentials.team.rank.entry": "   §6%s",
+    
+    "thutessentials.team.relations.none": "§cYour team has no relations.",
+    "thutessentials.team.relations.notfound": "§cYour team does not have relations with §6%s",
+    "thutessentials.team.relations.noperm": "§6That is not a valid team relation permission",
+    
+    "thutessentials.team.relations.with": "§aRelations with §6%s§a:",
+    "thutessentials.team.relations.entry": "   §6%s",
+    
+    "thutessentials.team.relations.set": "§aSet permission §6%s§a for §6%s",
+    "thutessentials.team.relations.had": "§6%s§c already had that permission!",
+    "thutessentials.team.relations.unset": "§aRemoved permission §6%s§a for §6%s",
+    "thutessentials.team.relations.nohad": "§6%s§c did not have that permission!",
+    
+    "thutessentials.team.relations.header": "§aList of allowed Relations:",
+    "thutessentials.team.info.ally": "§a   §6%s§a - Counts as \"Ally\" by anything that uses that.",
+    "thutessentials.team.info.break": "§a   §6%s§a - Allowed to break any of our blocks.",
+    "thutessentials.team.info.place": "§a   §6%s§a - Allowed to place blocks in our land.",
+    "thutessentials.team.info.public": "§a   §6%s§a - Allowed to use any block in our land.",
+    
+    "thutessentials.claim.notallowed.teamperms": "§cYou are not allowed to claim land for your team.",
+    "thutessentials.claim.notallowed.needmoreland": "§cYour team may not claim more land.",
+    "thutessentials.claim.notallowed.alreadyclaimedby": "§cThis land is already claimed by §6%s",
+    "thutessentials.claim.warn.alreadyclaimed": "§6%s§c of these chunk segments were already claimed!",
+    "thutessentials.claim.claimed": "§aYou claimed this land for §6%s",
+    "thutessentials.claim.claimed.num": "§aYou claimed §6%s§a chunk segments for §6%s",
+    "thutessentials.claim.claimed.failed": "§cYou were unable to claim that land.",
+    "thutessentials.claim.claimed.count": "§aYour team has claimed §6%s§a chunk segments, with a maximum of §6%s§a",
+    
+    "thutessentials.claim.loaded": "§aВы отметили этот чанк для загрузки чанков, §6%s§a осталось.",
+    "thutessentials.claim.unloaded": "§aВы сняли отметку с этого чанка для загрузки чанков, §6%s§a осталось.",
+    
+    "thutessentials.claim.ownedby": "§aЭта земля принадлежит §6%s",
+    "thutessentials.claim.unowned": "§aЭта земля без владельца",
+    
+    "thutessentials.unclaim.notallowed.teamperms": "§cВам не разрешается отказываться от земли своей команды.",
+    "thutessentials.unclaim.notallowed.notowner": "§cВам не разрешается отказываться от земли, принадлежащей §6%s",
+    "thutessentials.unclaim.notallowed.noowner": "§cЭта земля никому не принадлежит",
+    "thutessentials.unclaim.done": "§aВы отказались от этой земли §6%s",
+    "thutessentials.unclaim.done.num": "§aВы отозвали права сегмента чанка §6%s§a для §6%s",
+    "thutessentials.unclaim.done.failed": "§cВы не смогли вернуть себе эту землю.",
+    
+    "_comment": "Разное",
+    
+    "thutessentials.fly.set.true": "§aТеперь вы можете летать!",
+    "thutessentials.fly.set.false": "§cВы больше не можете летать!"
+    
+    
+    
+}
